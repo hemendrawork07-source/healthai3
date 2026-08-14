@@ -5,4 +5,5 @@ pandas
 scikit-learn
 joblib
 jinja2
-python-multipartgunicorn
+python-multipart
+gunicorn
