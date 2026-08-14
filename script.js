@@ -1,7 +1,7 @@
 (() => {
     "use strict";
   
-    const API_BASE = "https://healthai-4-k0tk.onrender.com/";
+    const API_BASE = window.API_BASE || "https://healthai-4-k0tk.onrender.com";
   
     const form = document.getElementById("predict-form");
     const submitBtn = document.getElementById("submit-btn");
